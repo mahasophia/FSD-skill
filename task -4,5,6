@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Assistive Technology Showcase</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style-4-5-6-7.css">
+
+    <!-- Internal CSS -->
+    <style>
+    body {
+        background-color: #FFF8F0;
+    }
+
+    h1 {
+        text-align: center;
+        color: #6D597A;
+    }
+
+    h2 {
+        color: #B56576;
+    }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <h1>♿ Smart Assistive Technology Showcase ♿</h1>
+
+    <!-- Inline CSS -->
+    <h2 style="color:#E76F51; font-size:32px;">
+        🚀 Featured Innovation: Smart Navigation Shoe for Disabled People
+    </h2>
+
+    <!-- Home Section -->
+    <h2>Home</h2>
+    <p>
+        Welcome to Smart Assistive Technology Showcase. Here we explore innovative devices
+        designed to support disabled individuals and improve accessibility, independence, and safety in daily life.
+    </p>
+
+    <!-- About Us Section -->
+    <h2>About Us</h2>
+    <p>
+        This platform highlights assistive technologies such as smart shoes, voice-guided systems,
+        wearable sensors, and IoT-based devices that help people with disabilities move safely and confidently.
+    </p>
+
+    <!-- Product Details Table -->
+    <h2>Assistive Innovations</h2>
+
+    <table>
+        <tr>
+            <th>Device Name</th>
+            <th>Purpose</th>
+            <th>Technology Used</th>
+            <th>Year</th>
+            <th>Impact</th>
+        </tr>
+
+        <tr>
+            <td>Smart Navigation Shoe</td>
+            <td>Obstacle detection & walking support</td>
+            <td>IoT + Sensors + Vibration Motor</td>
+            <td>2026</td>
+            <td>High</td>
+        </tr>
+
+        <tr>
+            <td>Smart Cane</td>
+            <td>Helps visually impaired navigation</td>
+            <td>Ultrasonic Sensor + GPS</td>
+            <td>2025</td>
+            <td>High</td>
+        </tr>
+
+        <tr>
+            <td>Voice-Control Wheelchair</td>
+            <td>Hands-free mobility control</td>
+            <td>AI Voice Recognition</td>
+            <td>2024</td>
+            <td>Very High</td>
+        </tr>
+
+        <tr>
+            <td>Smart Glasses</td>
+            <td>Object recognition & reading support</td>
+            <td>AI + Camera + OCR</td>
+            <td>2026</td>
+            <td>High</td>
+        </tr>
+
+        <tr>
+            <td>Wearable Health Band</td>
+            <td>Tracks health and alerts emergency</td>
+            <td>IoT Sensors</td>
+            <td>2025</td>
+            <td>Medium</td>
+        </tr>
+    </table>
+
+    <!-- Spotlight -->
+    <h2>Innovation Spotlight</h2>
+
+    <h3>Smart Navigation Shoe</h3>
+    <p>
+        The Smart Navigation Shoe is an IoT-based assistive device designed for visually impaired and physically challenged individuals.
+        It detects obstacles in real time and sends vibration alerts to help users walk safely and independently.
+    </p>
+
+    <!-- Categories -->
+    <h2>Technology Categories</h2>
+
+    <ul>
+        <li>IoT-Based Assistive Devices</li>
+        <li>AI Accessibility Tools</li>
+        <li>Wearable Health Technology</li>
+        <li>Smart Mobility Solutions</li>
+        <li>Voice-Control Systems</li>
+        <li>Vision Assistance Devices</li>
+    </ul>
+
+    <!-- Contact -->
+    <h2>Contact Us</h2>
+    <p>
+        📧 Email: assistivetech@gmail.com <br>
+        📞 Phone: +91 98765 43210
+    </p>
+
+</div>
+</body>
+</html>
