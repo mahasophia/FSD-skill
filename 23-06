@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Workshop Registration</title>
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding-top: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h2 id="demo">AI Workshop 2026</h2>
+
+<p>Learn Artificial Intelligence and Machine Learning Basics.</p>
+
+<button onclick="showAlert()">Register Now</button>
+<button onclick="changeText()">View Details</button>
+
+<script>
+    // Registration Message
+    function showAlert() {
+        alert("Registration Successful for AI Workshop!");
+    }
+
+    // Workshop Details
+    function changeText() {
+        document.getElementById("demo").innerHTML =
+        "Schedule: AI Basics | Machine Learning | Generative AI | Project Demo";
+    }
+</script>
+
+</body>
+</html>
