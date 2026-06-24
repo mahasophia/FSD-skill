@@ -1,0 +1,218 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0F4C81 40%, #D9833F 100%);
+            margin: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            width: 75%;
+            margin: auto;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+        }
+
+        h1, h2 {
+            color: #1e3a8a;
+        }
+
+        h4 {
+            color: #0f766e;
+        }
+
+        p {
+            color: #374151;
+            line-height: 1.7;
+        }
+
+        li {
+            color: #4b5563;
+            margin-bottom: 8px;
+        }
+
+        img {
+            border-radius: 10%;
+            border: 2px solid #1e3a8a;
+            display: block;
+            margin: 20px auto;
+        }
+
+        a {
+            color: #0077b5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .hero-text {
+            max-width: 600px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="hero">
+
+        <div class="hero-text">
+            <h1>Maha lakshmi </h1>
+            <p>Computer Science Student | AI Enthusiast | Future Software Developer</p>
+
+            <p>
+                <b>LinkedIn Profile:</b>
+                <a href="https://www.linkedin.com" target="_blank">
+                    Visit My LinkedIn
+                </a>
+            </p>
+
+    <h2>About Me</h2>
+
+
+
+<p>
+Hello! I am Maha lakshmi, a B.Sc. Computer Science with Artificial Intelligence student.
+
+I am interested in Web Development, Artificial Intelligence, and Programming. I enjoy learning new technologies and building simple projects that improve my technical skills.
+
+I have knowledge of Python, HTML, CSS, JavaScript, and Machine Learning basics. I am always eager to learn, grow, and gain practical experience through projects and internships.
+
+My goal is to become a successful software developer and contribute to innovative technology solutions.
+</p>
+
+
+    <h2>Education</h2>
+
+    <ol>
+        <li>
+            <b>B.Sc. Computer Science with Artificial Intelligence</b><br>
+            <i>2024 - 2027</i>
+            <p>
+                Pursuing undergraduate studies with a focus on programming,
+                artificial intelligence, machine learning, and software development.
+            </p>
+        </li>
+
+        <li>
+            <b>Higher Secondary Education (HSC)</b><br>
+            <i>2023 - 2024</i>
+        </li>
+
+        <li>
+            <b>Secondary School Education (SSLC)</b><br>
+            <i>2021 - 2022</i>
+        </li>
+    </ol>
+
+    <h2>Technical Skills</h2>
+
+    <ul>
+        <li>Python Programming</li>
+        <li>JavaScript</li>
+        <li>HTML & CSS</li>
+        <li>Database Management Systems</li>
+        <li>Artificial Intelligence Fundamentals</li>
+        <li>Machine Learning Basics</li>
+        <li>Git & Version Control</li>
+        <li>Microsoft Excel, Word, PowerPoint, Power BI</li>
+    </ul>
+
+    <h2>Soft Skills</h2>
+
+    <ul>
+        <li>Communication Skills</li>
+        <li>Leadership</li>
+        <li>Team Collaboration</li>
+        <li>Critical Thinking</li>
+        <li>Problem Solving</li>
+        <li>Adaptability</li>
+        <li>Continuous Learning</li>
+    </ul>
+
+    <h2>Projects</h2>
+
+    <ol>
+
+        <li>
+            <b>Smart staircase – IoT-Based Smart automate light  Management System</b>
+            <p>
+                Uses: Automatic staircase lighting, energy saving, improved safety, smart home automation, reduced electricity consumption, and efficient movement detection using IoT sensors. it is mainly use for old people 
+            </p>
+        </li>
+<li>
+    <b>Smart Shoe for Disabled People</b>
+    <p>
+        Designed an IoT-based smart shoe to assist disabled individuals by helping with navigation and movement support.
+        The system can detect obstacles, provide alerts through vibration, and improve safety and independence in daily walking.
+    </p>
+</li>
+
+        <li>
+            <b>Web Development Projects</b>
+            <ul>
+                <li>Student Registration Form</li>
+                <li>Quiz Application</li>
+                <li>Portfolio Website</li>
+                <li>Responsive Landing Pages</li>
+            </ul>
+        </li>
+
+    </ol>
+
+    <h2>Certifications</h2>
+
+    <ul>
+        <li>Microsoft Certifications</li>
+        <li>LinkedIn Learning Certifications</li>
+        <li>TCS iON Certifications</li>
+        <li>Infosys Certifications</li>
+    </ul>
+
+    <h2>Career Objective</h2>
+
+    <p>
+        To secure opportunities that allow me to apply my technical knowledge,
+        develop professional skills, contribute to innovative projects, and grow
+        as a software developer in the field of Artificial Intelligence and Web
+        Technologies.
+    </p>
+
+    <h2>Contact Information</h2>
+
+    <p>
+        📧 Email: mahasophia2302@gmail.com <br>
+        📱 Phone: +91 8248543711<br>
+        📍 Chennai, Tamil Nadu, India
+    </p>
+
+</div>
+
+</body>
+</html>
+```
