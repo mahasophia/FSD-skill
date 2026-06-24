@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internship Application Form</title>
+
+<style>
+    body{
+        background-color: #87CEEB;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .box{
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        text-align: center;
+        width: 300px;
+        box-shadow: 0 0 15px gray;
+    }
+
+    h2{
+        color: #007BFF;
+    }
+
+    input{
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    button{
+        width: 100%;
+        padding: 10px;
+        background: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #msg{
+        margin-top: 10px;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Internship Form</h2>
+
+    <input type="text" id="name" placeholder="Enter Name"><br>
+
+    <input type="email" id="email" placeholder="Enter Email"><br>
+
+    <button id="btn">Apply</button>
+
+    <p id="msg"></p>
+</div>
+
+<script>
+document.getElementById("btn").addEventListener("click", function() {
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+
+    if(name == "" || email == "") {
+        document.getElementById("msg").innerHTML =
+        "Please fill all fields";
+    }
+    else {
+        document.getElementById("msg").innerHTML =
+        "Application Submitted Successfully!";
+    }
+
+});
+</script>
+
+</body>
+</html>
